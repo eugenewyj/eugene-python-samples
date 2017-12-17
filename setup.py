@@ -12,11 +12,11 @@ with open('LICENSE') as f:
 setup(
     name='sample',
     version='0.1.0',
-    description='Sample package for Python-Guide.org',
+    description='Python工程的样例包',
     long_description=readme,
-    author='Kenneth Reitz',
-    author_email='me@kennethreitz.com',
-    url='https://github.com/kennethreitz/samplemod',
+    author='Eugene Wang',
+    author_email='eugenewyj@163.com',
+    url='https://github.com/eugenewyj/eugene-python-samples',
     license=license,
     packages=find_packages(exclude=('tests', 'docs'))
 )
