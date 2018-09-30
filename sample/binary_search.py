@@ -2,6 +2,12 @@
 
 
 def binary_search(list1, item):
+	"""
+	二分查找
+	:param list1: 查找的数组
+	:param item: 待查找项
+	:return: 查找项在数组中的索引
+	"""
 	low = 0
 	high = len(list1) - 1
 
